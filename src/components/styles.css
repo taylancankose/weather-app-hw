@@ -1,0 +1,49 @@
+body{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 100px;
+    background-color: #C1CFEA;
+    padding: 0;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #ffffff;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1))
+  }
+
+
+  .card.mb-4{
+    border-radius: 25px;
+  }
+
+
+.h-100 {
+    color: #282828;
+  }
+
+  .gradient-custom{
+    border-radius: 25px;
+  }
+
+  .info{
+    font-size: .65rem;
+  }
+
+  .card{
+    border-radius: 25px;
+  }
+
+
+
+  .icon{
+    color: #ddd;
+  }
+
+  .capitalize{
+    text-transform: capitalize;
+  }
